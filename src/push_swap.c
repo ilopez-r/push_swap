@@ -17,10 +17,7 @@
 	system("leaks -q push_swap");
 }atexit(ft_leaks); */
 
-/*
-//copiar esta: lst_print_structs(&data->lst_a, &data->lst_b);
-
-void	lst_print_list_s(t_list *lst)
+/*void	lst_print_list_s(t_list *lst)
 {
 	int	num_len;
 
@@ -72,7 +69,7 @@ void	lst_print_structs(t_list **lst_a, t_list **lst_b)
 		pos_b = pos_b->next;
 	}
 	ft_printf("\n");
-}*/
+}lst_print_structs(&data->lst_a, &data->lst_b); */
 
 static void	init_struct(t_data *data)
 {
