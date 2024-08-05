@@ -1,12 +1,16 @@
-![eng](img/eng.png) [![ru](img/ru.png)](README.ru.md)
-# `push_swap`
+![image](https://github.com/ilopez-r/resources/blob/main/covers/cover-push_swap-bonus.png?raw=true)
+
+## Subject
+This is the [subject](https://github.com/ilopez-r/resources/blob/main/subjects/02_push_swap_en.pdf) for this project.
+
+## Introduction
 The purpose of this project is sort data on a stack, with specific rules, using the lowest possible number of actions.
 
-### Discription of mandatory part
+## Discription of mandatory part
 The `push_swap` program takes a set of `int` values, sorts the values using rules and writes commands that make the set sorted. To do this, you need think the algorithm and implement it.
 
 ![100](img/100slow.gif)
-#### Rules
+### Rules
 We have 2 stacks named `a` and `b`. To start with:
 - `a` - contains a random number of either positive or negative numbers without any duplicates
 - `b` - is empty
@@ -25,7 +29,7 @@ To do this we have the following commands at your disposal:
 - `rrb` - __reverse rotate b__ - shift down all elements of stack `b` by 1. The last element becomes the first one
 - `rrr` - __reverse rotate a__ and __reverse rotate b__ at the same time
 
-#### Example of working `push_swap`
+### Example of working `push_swap`
 Input parameters and output of the implemented programme:
 ```bash
 $> ./push_swap 2 1 3 6 5 8
@@ -38,13 +42,10 @@ pa
 pa
 pa
 ```
-### Algoritm
-To complete the project, I used next algoritm. [![link](img/doc.png)](https://github.com/VBrazhnik/Push_swap/wiki/Algorithm)
 
-But to perfectly works, I had to make some additions.
-### Discription of bonus part
+## Discription of bonus part
 If you are sure that the algorithm works perfectly, you can proceed to the bonus. You need to write your own `checker`, repeating the behaviour of the standard `checker_OS`.
-#### Example of working `checker`
+### Example of working `checker`
 Input parameters and output of the implemented programme:
 ```bash
 $> ./checker 2 1 3 6 5 8
@@ -58,7 +59,3 @@ pa
 pa
 OK
 ```
-
-### Evaluated by moulinette
-
-![125/100](img/125.png)
