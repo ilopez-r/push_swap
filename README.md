@@ -9,7 +9,7 @@ The purpose of this project is sort data on a stack, with specific rules, using 
 ## Discription of mandatory part
 The `push_swap` program takes a set of `int` values, sorts the values using rules and writes commands that make the set sorted. To do this, you need think the algorithm and implement it.
 
-![100](img/100slow.gif)
+![100](https://github.com/tolmvad/push_swap/raw/master/img/100slow.gif)
 ### Rules
 We have 2 stacks named `a` and `b`. To start with:
 - `a` - contains a random number of either positive or negative numbers without any duplicates
